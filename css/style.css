@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HankenGrotesk-ExtraBold;
+  src: url(/assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: HankenGrotesk-Bold;
+  src: url(/assets/fonts/static/HankenGrotesk-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: HankenGrotesk-Medium;
+  src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: HankenGrotesk-VariableFont_wght;
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 53.8125rem;
+  height: 37.5625rem;
+  background-color: #fff;
+  border-radius: 37px;
+
+  box-shadow: 10px 10px 36px -3px rgba(17, 37, 212, 0.35);
+  -webkit-box-shadow: 10px 10px 36px -rgba(17, 37, 212, 0.35);
+  -moz-box-shadow: 10px 10px 36px -3px rgba(17, 37, 212, 0.35);
+  display: flex;
+  margin-top: 100px;
+}
+
+.sub-container-1 {
+  width: 50%;
+  height: 37.5625rem;
+  background: linear-gradient(180deg, #6743FF 0%, #322BEA 100%);
+  border-radius: 37px;
+
+}
+
+
+.sub-container-1>h3 {
+  color: #FFF;
+  font-size: 1.75rem;
+  font-family: HankenGrotesk-VariableFont_wght;
+  text-align: center;
+}
+
+.sub-container-1>h2 {
+  color: #FFF;
+  font-size: 2.3125rem;
+  font-family: HankenGrotesk-Bold;
+  text-align: center;
+
+}
+
+.round-component>h4 {
+
+  color: #fff;
+  font-size: 1.375rem;
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+}
+
+.sub-container-1>p {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3125rem;
+  font-family: Hanken Grotesk;
+  margin: 0 75px;
+}
+
+.round-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  width: 14.5rem;
+  height: 14.5rem;
+  border-radius: 232px;
+  background: linear-gradient(180deg, #4827D0 0%, rgba(72, 39, 208, 0.00) 100%);
+  margin: 0 auto;
+}
+
+.round-component>h1,
+h4 {
+  color: #FFF;
+  text-align: center;
+}
+
+.round-component>h1 {
+  font-family: HankenGrotesk-ExtraBold;
+  font-size: 5.3125rem;
+  margin: 0;
+}
+
+.round-component>h4 {
+  margin: 0;
+}
+
+.sub-container-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container-2>h3 {
+  color: #000;
+  font-size: 1.8125rem;
+  font-family: HankenGrotesk-Medium;
+  margin-left: 44px;
+}
+
+.sub-dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 21.1875rem;
+  height: 19.9375rem;
+  margin: 0 auto;
+}
+
+.sub-dev .reaction {
+  width: 21.1875rem;
+  height: 4.125rem;
+  border-radius: 14px;
+  background-color: hsl(0, 100%, 67%, 10%);
+}
+
+.sub-dev .memory {
+  width: 21.1875rem;
+  height: 4.125rem;
+  border-radius: 14px;
+  background-color: hsl(39, 100%, 56%, 10%);
+}
+
+.sub-dev .verbal {
+  width: 21.1875rem;
+  height: 4.125rem;
+  border-radius: 14px;
+  background-color: hsl(166, 100%, 37%, 10%);
+}
+
+.sub-dev .visual {
+  width: 21.1875rem;
+  height: 4.125rem;
+  border-radius: 14px;
+  background-color: hsl(234, 85%, 45%, 10%);
+}
+
+.sub-container-2>a {
+  padding: 1.20rem 7.69rem;
+  background-color: #303B59;
+  border-radius: 33px;
+  margin: 42px auto;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.375rem;
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+
+}
+
+.sub-container-2>a:active {
+  background: linear-gradient(180deg, #6743FF 0%, #322BEA 100%);
+}
+
+.sub-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-content>.icon-text {
+  display: flex;
+  align-items: center;
+  width: 1.4375rem;
+  height: 100%;
+  margin-left: 15px;
+}
+
+.icon-text>h6 {
+  color: #000;
+  font-size: 1.3125rem;
+  font-family: HankenGrotesk-Bold;
+  font-weight: 500;
+  margin-left: 10px;
+
+}
+
+.sub-content>p {
+  color: #989A99;
+  font-size: 1.3125rem;
+  font-family: HankenGrotesk-Medium;
+  padding-right: 15px;
+}
+
+.sub-content>p>span {
+  color: #000;
+  font-size: 1.3125rem;
+  font-family: HankenGrotesk-Bold;
+}
+
+.reaction>.icon-text>h6 {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory>.icon-text>h6 {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal>.icon-text>h6 {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual>.icon-text>h6 {
+  color: hsl(234, 85%, 45%);
+}
